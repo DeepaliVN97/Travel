@@ -1,0 +1,116 @@
+
+body{    
+    color: whitesmoke;
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.col-md-8{
+    background-color:#272b40;
+        padding-top: 147px;
+
+
+}
+ul{
+    
+    display: inline-block;
+}
+li{
+    margin-right: 90px;
+}
+.col-md-8{
+padding-left: 100px;
+}
+.spa{
+    overflow:auto;
+    white-space: nowrap;
+}
+.im-card{
+    display: inline-block;
+    margin: 10px;
+    position: relative;
+}
+img{
+    vertical-align: middle;
+    height: 450px;
+    width: 300px;
+    display: cover;
+    border-style: none;
+    margin-right: 50px;
+    background-size: cover;
+    box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
+}
+header{
+    height: 100vh;
+}
+.pic-back{
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.bottom-left{
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+.top-left{
+    position: absolute;
+    top: 1pc;
+    
+}
+.cent{
+    position: inherit;
+    top: 25%;
+}
+.top-right{
+    position: absolute;
+        top: -4pc;
+    /* right: 16px; */
+    left: 13pc;
+}
+.img-but{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 1;
+    transform: translateY(100%);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.img-t{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    transform: translateY(100%);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    top: -3.5pc;
+}
+/* .mini-img{
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    transform: translateY(100%);
+    top: -1.5pc;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    font-size: 70%;
+    font-weight: 400;
+} */
+.badge {
+    display: inline-block;
+    padding: .25em .4em;
+    font-size: 60%;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
